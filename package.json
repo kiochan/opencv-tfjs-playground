@@ -1,0 +1,27 @@
+{
+  "name": "opencv-tfjs-playground",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@techstark/opencv-js": "^4.5.2",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^3.7.0",
+    "@tensorflow/tfjs-backend-cpu": "^3.7.0",
+    "@tensorflow/tfjs-converter": "^3.7.0",
+    "@tensorflow/tfjs-core": "^3.7.0",
+    "@types/jsdom": "^16.2.11",
+    "canvas": "^2.8.0",
+    "images": "^3.2.3",
+    "jpeg-js": "^0.4.3",
+    "jsdom": "^16.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json -w",
+    "start": "node ."
+  }
+}
