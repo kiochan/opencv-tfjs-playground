@@ -14,7 +14,8 @@
     "canvas": "^2.8.0",
     "images": "^3.2.3",
     "jpeg-js": "^0.4.3",
-    "jsdom": "^16.6.0"
+    "jsdom": "^16.6.0",
+    "seedrandom": "^3.0.5"
   },
   "devDependencies": {
     "typescript": "^4.3.2"

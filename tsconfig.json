@@ -10,6 +10,7 @@
     "isolatedModules": true,
     "importsNotUsedAsValues": "error",
     // some strict rules
+    "skipLibCheck": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

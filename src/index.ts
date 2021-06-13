@@ -18,7 +18,7 @@ import { JSDOM } from "jsdom";
  * wait
  */
 function wait(sec: number) {
-  return new Promise<void>((resolve, reject) => {
+  return new Promise<void>((resolve) => {
     setTimeout(resolve, Math.floor(sec * 1000));
   });
 }
